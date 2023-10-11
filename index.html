@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Prompt</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/tplogo.png" alt="Logo" id="logo" />
+      <h1 id="app-name">Task Prompt</h1>
+      <div id="toggle-mode" onclick="toggleMode()">
+        <img src="images/brightness-and-contrast.png" alt="Toggle Mode" />
+      </div>
+    </header>
+    <div id="app">
+      <input type="text" id="task-input" placeholder="Add a new task" />
+      <button id="add-button">Add Task</button>
+      <ul id="task-list"></ul>
+    </div>
+    <footer>
+      <div id="footer-content">
+        <div class="footer-section">
+          <h3>Address</h3>
+          <p>123 Ikorodu Road</p>
+          <p>Lagos, Nigeria, 900107</p>
+        </div>
+        <div class="footer-section">
+          <h3>Phone Number</h3>
+          <p>(+234) 9037002327</p>
+        </div>
+        <div class="footer-section">
+          <h3>Subscribe</h3>
+          <input type="email" placeholder="Enter your email" />
+          <button>Subscribe</button>
+        </div>
+        <div class="footer-section">
+          <h3>Donate</h3>
+          <p>Your support is greatly appreciated.</p>
+          <a href="https://github.com/sponsors/Rakielle" target="_blank">
+            <button class="donate-button">Donate</button>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
